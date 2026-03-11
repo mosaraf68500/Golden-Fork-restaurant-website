@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router';
-import logo from "../../../src/assets/logo.png";
+import logo from "../../../assets/logo.png";
 
 const Navbar = () => {
     
@@ -39,8 +39,8 @@ const Navbar = () => {
                     {navOptions}
                 </ul>
             </div>
-
-            {/* Navbar End: Action Button */}
+ß
+            {/* Navbar End: Action Button */}ß
             <div className="navbar-end">
                 <button className="btn btn-primary text-white">Login</button>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 // Background image ta import koro (path thik kore nio)
-import chefBg from '../../../../src/assets/home/chef-service.jpg';
+import chefBg from '../../../../assets/home/chef-service.jpg';
 
 const BistoBossNewsletter = () => {
     return (
