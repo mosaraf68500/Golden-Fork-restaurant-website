@@ -13,6 +13,7 @@ import slide2 from '../../../../assets/home/slide2.jpg';
 import slide3 from '../../../../assets/home/slide3.jpg';
 import slide4 from '../../../../assets/home/slide4.jpg';
 import slide5 from '../../../../assets/home/slide5.jpg';
+import SharedSectionTitle from '../../../../ReuseableComponents/SharedSectionTitle/SharedSectionTitle';
 
 const OrderOnline = () => {
     
@@ -27,11 +28,11 @@ const OrderOnline = () => {
     return (
         <section className="my-10 px-4 md:px-10">
             {/* Section Header */}
-            <div className="text-center mb-12">
-                <p className="text-yellow-500 italic text-sm mb-2">---From 11:00am to 10:00pm---</p>
-                <h2 className="text-3xl font-bold border-y-4 border-gray-200 py-3 uppercase w-max mx-auto px-10">
-                    Order Online
-                </h2>
+            <div>
+                <SharedSectionTitle
+                subHeading="From 11:00am to 10:00pm"
+        heading="Order Online"
+                ></SharedSectionTitle>
             </div>
 
             <Swiper
