@@ -6,6 +6,8 @@ import BistoBossNewsletter from '../../components/ui/Home/components/BistoBossNe
 import PopularMenu from '../../components/ui/Home/components/PopularMenu'
 import CallUs from '../../components/ui/Home/components/CallUs'
 import RecommendsMenu from '../../components/ui/Home/components/RecommendsMenu'
+import OurMenuSection from '../../components/ui/Home/components/OurMenuSection'
+import ReviewSection from '../../components/ui/Home/components/ReviewSection'
 const Home = () => {
   return (
     <div>
@@ -17,6 +19,8 @@ const Home = () => {
 
       <CallUs></CallUs>
       <RecommendsMenu></RecommendsMenu>
+      <OurMenuSection></OurMenuSection>
+      <ReviewSection></ReviewSection>
     </div>
   )
 }
