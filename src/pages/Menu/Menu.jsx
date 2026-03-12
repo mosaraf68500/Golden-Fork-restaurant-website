@@ -1,5 +1,6 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
+import MenuHome from '../../components/ui/menu/components/MenuHome'
 
 const Menu = () => {
   return (
@@ -8,7 +9,7 @@ const Menu = () => {
         <title>Our Menu </title>
         <meta name="description" content="This is home page" />
       </Helmet>
-      <h1>menu</h1>
+      <MenuHome></MenuHome>
     </div>
   )
 }
