@@ -7,9 +7,14 @@ const Navbar = () => {
     // Nav links gulo ekta constant e rakhle manage kora shohoj
     const navOptions = (
         <>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/item1">Item 1</NavLink></li>
-            <li><NavLink to="/item3">Item 3</NavLink></li>
+            <li><NavLink to="/">HOME</NavLink></li>
+            <li><NavLink to="/contact">CONTACTUS</NavLink></li>
+            <li><NavLink to="/dashboard">DASHBOARD</NavLink></li>
+              <li><NavLink to="/menu">Our Menu</NavLink></li>
+                <li><NavLink to="/ourshop">Our Shop</NavLink></li>
+                  <li><NavLink to="/checkout">checkout</NavLink></li>
+                  <li><NavLink to="/singin">SIGN OUT</NavLink></li>
+                  <li><NavLink to="/user">user</NavLink></li>
         </>
     );
 
@@ -39,8 +44,8 @@ const Navbar = () => {
                     {navOptions}
                 </ul>
             </div>
-ß
-            {/* Navbar End: Action Button */}ß
+
+            {/* Navbar End: Action Button */}
             <div className="navbar-end">
                 <button className="btn btn-primary text-white">Login</button>
             </div>
